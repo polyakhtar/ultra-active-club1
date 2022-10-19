@@ -1,0 +1,45 @@
+.iteam {
+    width: 300px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 1px solid green;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #eff4f7;
+    text-align: start;
+    position: relative;
+
+}
+
+.iteam img {
+    width: 300px;
+    border-radius: 7px;
+
+}
+
+.iteam h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.iteam h6 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.add-btn {
+    background-color: #2b0dd6;
+    border: none;
+    width: 93%;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    margin-right: 30px;
+}

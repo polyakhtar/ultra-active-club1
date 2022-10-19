@@ -1,0 +1,22 @@
+.brack-time {
+    height: 100px;
+    list-style-type: none;
+    display: flex;
+    display: flex;
+    margin: 70px;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -70px;
+}
+
+.brack-time button {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 25px;
+    border-radius: 75px;
+    border: none;
+
+}

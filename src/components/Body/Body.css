@@ -1,0 +1,100 @@
+.body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.iteams-container {
+    background-color: #E6E6E6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-left: 40px;
+}
+
+.user-bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.user-bio img {
+    width: 100px;
+
+    border-radius: 50px;
+    margin-right: 20px;
+
+}
+
+.user-name {
+    margin-bottom: -20px;
+}
+
+.user-location {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-location p {
+    margin-left: 20px;
+}
+
+.info-container {
+    display: flex;
+    line-height: 5px;
+    margin: 70px;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.user-info {
+    margin-left: 20px;
+}
+
+.add-brack {
+    margin-left: -300px;
+    margin-top: -60px;
+    margin-bottom: 100px;
+}
+
+.details {
+    margin-left: -320px;
+    margin-top: -60px;
+    margin-bottom: -50px;
+}
+
+.gym-time {
+    display: flex;
+    margin: 70px;
+    border-radius: 10px;
+    background-color: #E6E6E6;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 680px) {
+    .iteams-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .body {
+        display: grid;
+        grid-template-columns: 5fr;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width: 980px) {
+    .body {
+        display: grid;
+        grid-template-columns: 5fr;
+    }
+
+    .iteams-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
