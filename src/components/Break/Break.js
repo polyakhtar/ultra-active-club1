@@ -1,12 +1,12 @@
 
 import './Break.css'
 
-const Break = ({ iteam, brakes, setBrake }) => {
+const Break = ({ iteam, setBrake }) => {
 
-    const { breake } = iteam
+    const { breake } = iteam;
     const addBreakTime = () => {
-        const brakeTime = breake;
-        setBrake(brakeTime)
+        const breakTime = breake;
+        setBrake(breakTime);
 
     }
     return (

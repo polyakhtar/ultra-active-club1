@@ -65,8 +65,8 @@ const Body = () => {
                         </div>
 
                     </div>
-                    <h2 className='add-brack'>Add A Break</h2>
-                    <div className='brack-time'>
+                    <h2 className='add-break'>Add A Break</h2>
+                    <div className='break-time'>
                         {
 
                             iteams.map(iteam => <Break key={iteam.id} iteam={iteam} brakes={brakes} setBrake={setBrake}></Break>)
@@ -74,7 +74,7 @@ const Body = () => {
                     </div>
 
                     <div>
-                        <h2 className='details'>Detail Gym</h2>
+                        <h2 className='details'>Gym Details: </h2>
                         <div className='gym-time'>
                             <h3>Total GYM Time</h3>
                             <p>{cart} Seconds</p>
