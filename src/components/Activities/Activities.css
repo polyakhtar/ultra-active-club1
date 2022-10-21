@@ -1,0 +1,13 @@
+button {
+    background-color: #2b0dd6;
+    padding: 20px;
+    width: 78%;
+    border: none;
+    border-radius: 7px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.complete {
+    color: white;
+}
