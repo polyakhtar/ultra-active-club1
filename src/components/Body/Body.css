@@ -1,17 +1,21 @@
 .body {
-
+    width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
 .iteams-container {
-
-    background-color: #E6E6E6;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    padding-left: 40px;
+    padding-left: 10px;
 }
+
+.cart-container {
+    margin-left: 0px;
+}
+
 
 .user-bio {
     display: flex;
