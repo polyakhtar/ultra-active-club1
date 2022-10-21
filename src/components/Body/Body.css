@@ -1,9 +1,11 @@
 .body {
+
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
 .iteams-container {
+
     background-color: #E6E6E6;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -18,9 +20,10 @@
     margin-top: 30px;
 }
 
+
+
 .user-bio img {
     width: 100px;
-
     border-radius: 50px;
     margin-right: 20px;
 
