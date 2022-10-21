@@ -5,15 +5,15 @@
 }
 
 .iteams-container {
-    width: 50%;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .cart-container {
-    margin-left: 0px;
+    margin-right: 150px;
 }
 
 

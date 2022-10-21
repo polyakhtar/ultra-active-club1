@@ -1,5 +1,5 @@
 .iteam {
-    width: 300px;
+    width: 250px;
     height: 500px;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -15,7 +15,7 @@
 }
 
 .iteam img {
-    width: 300px;
+    width: 250px;
     border-radius: 7px;
 
 }
